@@ -1,4 +1,4 @@
-export const fontSize = {
+module.exports = {
 	'display-01': [
 			'7rem',
 			{

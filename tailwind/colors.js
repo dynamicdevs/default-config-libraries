@@ -1,4 +1,4 @@
-export const colors = {
+module.exports = {
 	transparent: 'transparent',
 	primary: {
 		dynamic: {

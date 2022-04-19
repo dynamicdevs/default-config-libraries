@@ -1,8 +1,8 @@
-import { colors } from "./colors";
-import { fontFamily } from "./fontFamily";
-import { fontSize } from "./fontSize";
+const colors = require('./colors');
+const fontFamily = require('./font-family');
+const fontSize = require('./font-size');
 
-export const ThemeDynamic = {
+module.exports= {
   screens: {
     md: '768px',
     lg: '1025px',
