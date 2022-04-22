@@ -1,15 +1,14 @@
 <br>
 <div align="center">
 <a href="https://www.dynamicdevs.io/">
-<img src="https://assets.dynamicdevs.io/engineering/dd-logo-dark.svg" alt="Dynamic Devs logo" height="60"/>
+<img src="https://assets.dynamicdevs.io/engineering/dd-logo-regular.svg" alt="Dynamic Devs logo" height="60"/>
 </a>
 <br>
-<h2> General Projects Configurations </h2> 
+<h3> General Projects Configurations </h3> 
 <p align="center">
 <a href="https://www.dynamicdevs.io/">dynamics.io</a>
 </p>
 </div>
-
 
 
 ## About The Project
@@ -75,8 +74,6 @@ Set theme with themeDynamic
   <img src="https://contrib.rocks/image?repo=dynamicdevs/default-config-libraries" />
 </a>
 
-<br>
-
 ## Community
 
 Join to the conversation and help the community.
@@ -92,8 +89,6 @@ Dynamic Devs - business@dynamicdevs.io
 <br>
 
 ***
-
-<br>
 
 <p align="center">
 <a href="https://ko-fi.com/D1D6C947W">
