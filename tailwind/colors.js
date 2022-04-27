@@ -75,6 +75,20 @@ module.exports = {
 			100: '#E8FFC3',
 		},
 	},
+  gradient: {
+    ocean: {
+      320: '#00C9DA',
+      310: '#005ECC',
+    },
+    amethyst: {
+      220: '#9D00E7',
+      210: '#4F76FF',
+    },
+    grape: {
+      120: '#632EBA',
+      110: '#1B0E67',
+    },
+  },
 	others: {
 		transparency: {
 			900: 'rgba(10, 26, 38, 0.9)',
