@@ -39,7 +39,7 @@ A git submodule is a record within a host git repository that points to a specif
 
 Use the `git submodule add [path to submodule] [subdirectory name]` command
 
-    git add submodule https://github.com/dynamicdevs/default-config-libraries settings
+    git submodule add https://github.com/dynamicdevs/default-config-libraries settings
 
 ## Tailwind configuration
 
