@@ -48,13 +48,13 @@ Use the `git submodule add [path to submodule] [subdirectory name]` command
 
 Install [Tailwind][tailwind-install] in your proyect.
 
-### Set Dynamic Theme
+### Set Horizon Theme
 
 Import tailwind settings on `tailwind.config.js`
 
-	const themeDynamic = require('../../settings/tailwind/theme-dynamic');
+	const themeHorizon = require('../../settings/tailwind/horizon');
 
-Set theme with themeDynamic
+Set theme with themeHorizon
 
 	module.exports = {
 		mode: 'jit',
@@ -62,7 +62,7 @@ Set theme with themeDynamic
 			join(__dirname, 'src/**/!(*.stories|*.spec).{ts,tsx,html}'),
 			...createGlobPatternsForDependencies(__dirname),
 		],
-		theme: themeDynamic,
+		theme: themeHorizon,
 		plugins: [],
 	}
 
