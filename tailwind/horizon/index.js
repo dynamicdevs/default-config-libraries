@@ -12,6 +12,12 @@ module.exports= {
     padding: {
       18: '4.5rem',
     },
+    spacing: {
+      18: '4.5rem',
+    },
+    height: {
+      30: '7.5rem',
+    },
   },
   container: () => ({
     center: true,
