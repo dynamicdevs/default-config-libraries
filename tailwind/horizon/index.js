@@ -2,6 +2,7 @@ const colors = require('./colors');
 const fontFamily = require('./font-family');
 const fontSize = require('./font-size');
 const screens = require('../default/screens');
+const sizes = require('../default/sizes');
 
 module.exports= {
   screens: screens,
@@ -15,9 +16,9 @@ module.exports= {
     spacing: {
       18: '4.5rem',
     },
-    height: {
-      30: '7.5rem',
-    },
+    width: sizes,
+    height: sizes,
+    maxWidth: sizes
   },
   container: () => ({
     center: true,
