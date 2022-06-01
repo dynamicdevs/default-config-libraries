@@ -25,12 +25,26 @@ The main purpose of this project is to unify all the main configuration necessar
 The project has the following structure.
 
 ```
-	├───tailwind/
-	│   ├───colors.js
-	│   ├───font-family.js
-	│   ├───font-size.js
-	│   └───theme-dynamic.js
-	└───README.md
+───tailwind/
+│   ├───default/
+│   │   ├───screens.js
+│   │   ├───shadows.js
+│   │   └───spacings.js
+│   └───horizon/
+│       ├───amethyst/
+│       │   ├───colors.js
+│       │   └───index.js
+│       ├───galaxy/
+│       │   ├───colors.js
+│       │   └───index.js
+│       ├───ocean/
+│       │   ├───colors.js
+│       │   └───index.js
+│       ├───colors.js
+│       ├───font-family.js
+│       ├───font-size.js
+│       └───index.js
+└───README.md
 ```
 
 ## Getting Started
@@ -43,16 +57,27 @@ Use the `git submodule add [path to submodule] [subdirectory name]` command
 
 ## Tailwind configuration
 
-
-### Prerequisites 
+### Prerequisites
 
 Install [Tailwind][tailwind-install] in your proyect.
 
-### Set Horizon Theme
+### Horizon
+
+Currently, the Design System of Dynamic Devs is Horizon, through which we define the design guidelines. In these settings Colors, Fonts, Spaces, and Shadows are defined.
+
+### Themes Colors
+
+#### **Amethyst**
+
+Inspired by a color variation of quartz, this semiprecious stone is often used in jewelry, moreover, it is considered a symbol of royalty.
+
+<img src="https://dynamicdevscommon.blob.core.windows.net/engineering/theme-amethyst.png" alt="drawing" width="500"/>
+
+#### **Set Amethyst Theme**
 
 Import tailwind settings on `tailwind.config.js`
 
-	const themeHorizon = require('../../settings/tailwind/horizon');
+	const themeHorizon = require('../../settings/tailwind/horizon/amethyst');
 
 Set theme with themeHorizon
 
@@ -65,6 +90,56 @@ Set theme with themeHorizon
 		theme: themeHorizon,
 		plugins: [],
 	}
+
+#### **Galaxy**
+
+Inspired by the galaxy, represents wisdom, tranquility, protection, good fortune, and hope. This is the main color of Dynamic Devs.
+
+<img src="https://dynamicdevscommon.blob.core.windows.net/engineering/theme-galaxy.png" alt="drawing" width="500"/>
+
+#### **Set Galaxy Theme**
+
+Import tailwind settings on `tailwind.config.js`
+
+	const themeHorizon = require('../../settings/tailwind/horizon/galaxy');
+
+Set theme with themeHorizon
+
+	module.exports = {
+		mode: 'jit',
+		content: [
+			join(__dirname, 'src/**/!(*.stories|*.spec).{ts,tsx,html}'),
+			...createGlobPatternsForDependencies(__dirname),
+		],
+		theme: themeHorizon,
+		plugins: [],
+	}
+
+#### **Ocean**
+
+Inspired by the oceans of the earth, which symbolize formlessness and the unfathomable. It is also a symbol of stability.
+
+<img src="https://dynamicdevscommon.blob.core.windows.net/engineering/theme-ocean.png" alt="drawing" width="500"/>
+
+#### **Set Ocean Theme**
+
+
+Import tailwind settings on `tailwind.config.js`
+
+	const themeHorizon = require('../../settings/tailwind/horizon/ocean');
+
+Set theme with themeHorizon
+
+	module.exports = {
+		mode: 'jit',
+		content: [
+			join(__dirname, 'src/**/!(*.stories|*.spec).{ts,tsx,html}'),
+			...createGlobPatternsForDependencies(__dirname),
+		],
+		theme: themeHorizon,
+		plugins: [],
+	}
+
 
 ## Contributors
 
