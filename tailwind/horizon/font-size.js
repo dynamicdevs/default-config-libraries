@@ -20,6 +20,13 @@ module.exports = {
       letterSpacing: '2px',
     },
   ],
+  'display-04': [
+    '4.5rem',
+    {
+      l ineHeight: '6.5rem',
+      letterSpacing: '2px',
+    },
+  ],
   'heading-01': [
     '4.5rem',
     {
@@ -133,23 +140,23 @@ module.exports = {
     },
   ],
   'subheading-01': [
+    '3.5rem',
+    {
+      lineHeight: '5rem',
+      letterSpacing: '0.5px',
+    },
+  ],
+  'subheading-02': [
     '3rem',
     {
       lineHeight: '4.5rem',
       letterSpacing: '0.5px',
     },
   ],
-  'subheading-02': [
-    '2rem',
+  'subheading-03': [
+    '3rem',
     {
       lineHeight: '3.5rem',
-      letterSpacing: '0.5px',
-    },
-  ],
-  'subheading-03': [
-    '1.5rem',
-    {
-      lineHeight: '2.5rem',
       letterSpacing: '0.5px',
     },
   ],
