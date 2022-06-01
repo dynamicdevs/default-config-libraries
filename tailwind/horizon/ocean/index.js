@@ -1,6 +1,6 @@
 const colors = require('./colors');
 const fontFamily = require('../font-family');
-const fontSize = require('../font-family');
+const fontSize = require('../font-size');
 const screens = require('../../default/screens');
 const spacings = require('../../default/spacings');
 const shadows = require('../../default/shadows');
