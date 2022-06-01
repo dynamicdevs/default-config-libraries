@@ -23,7 +23,7 @@ module.exports = {
   'display-04': [
     '4.5rem',
     {
-      l ineHeight: '6.5rem',
+      lineHeight: '6.5rem',
       letterSpacing: '2px',
     },
   ],
