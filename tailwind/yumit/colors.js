@@ -12,6 +12,10 @@ module.exports = {
 			200: '#BBBBD7',
 			100: '#DDDDEB',
 		},
+		wb: {
+			white: '#FFFFFF',
+			black: '#000000',
+		},
 	},
 	tertiary: {
 		900: '#06061E',
