@@ -29,7 +29,7 @@ module.exports = {
 	},
 	transparency: {
 		twhite: {
-			200: 'rgba(255, 255, 255, 0.2',
+			200: 'rgba(255, 255, 255, 0.2)',
 		},
 	},
 }
