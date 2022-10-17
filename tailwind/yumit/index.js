@@ -14,7 +14,8 @@ module.exports= {
     spacing: spacings,
     maxWidth: spacings,
     backgroundImage: (theme) => ({
-      'roots-pattern': 'linear-gradient(112.78deg, #4F76FF 14.79%, #9D00E7 85.21%)'
+      'roots-pattern': 'linear-gradient(112.78deg, #4F76FF 14.79%, #9D00E7 85.21%)',
+      'timeline-pattern': 'linear-gradient(12.52deg, #FDD245 50%, #FE2260 90.92%)'
     }),
   },
   container: () => ({
