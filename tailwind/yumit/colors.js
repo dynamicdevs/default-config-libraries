@@ -27,4 +27,9 @@ module.exports = {
 		300: '#9C9CEB',
 		200: '#CECEF5',
 	},
+	transparency: {
+		twhite: {
+			200: 'rgba(255, 255, 255, 0.2)',
+		},
+	},
 }
