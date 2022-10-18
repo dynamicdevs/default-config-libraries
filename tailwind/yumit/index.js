@@ -1,15 +1,15 @@
-const colors = require('./colors');
-const fontFamily = require('./font-family');
-const fontSize = require('../horizon/font-size');
-const screens = require('../default/screens');
-const spacings = require('../default/spacings');
-const shadows = require('../default/shadows');
+const colors = require("./colors");
+const fontFamily = require("./font-family");
+const fontSize = require("../horizon/font-size");
+const screens = require("../default/screens");
+const spacings = require("../default/spacings");
+const shadows = require("../default/shadows");
 
-module.exports= {
+module.exports = {
   screens: screens,
   extend: {
     borderRadius: {
-      '4xl': '2rem',
+      "4xl": "2rem",
     },
     spacing: spacings,
     maxWidth: spacings,
@@ -26,6 +26,6 @@ module.exports= {
   colors: colors,
   boxShadow: shadows,
   fill: (theme) => ({
-    ...theme('colors'),
+    ...theme("colors"),
   }),
-}
+};
