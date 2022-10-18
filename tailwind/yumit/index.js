@@ -13,11 +13,9 @@ module.exports = {
     },
     spacing: spacings,
     maxWidth: spacings,
-    backgroundImage: (theme) => ({
-      "roots-pattern":
-        "linear-gradient(112.78deg, #4F76FF 14.79%, #9D00E7 85.21%)",
-      "hover-pattern":
-        "linear-gradient(39.89deg, #FDD245 -1.57%, #FE2260 61.38%, rgba(6, 6, 30, 0) 100%);",
+    backgroundImage: () => ({
+      'timeline-pattern': 'linear-gradient(12.52deg, #FDD245 50%, #FE2260 90.92%)',
+      'contact-pattern': 'linear-gradient(39.89deg, #FDD245 -1.57%, #FE2260 61.38%, rgba(6, 6, 30, 0) 100%)',
     }),
   },
   container: () => ({
