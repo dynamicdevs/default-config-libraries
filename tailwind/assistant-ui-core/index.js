@@ -17,7 +17,6 @@ module.exports= {
   fontFamily: fontFamily,
   fontSize: fontSize,
   colors: colors,
-  boxShadow: shadows,
   fill: (theme) => ({
     ...theme('colors'),
   }),
