@@ -1,8 +1,8 @@
 const colors = require('./colors');
-const fontFamily = require('./font-family');
+const screens = require('../screens');
 const fontSize = require('./font-size');
-const screens = require('./screens');
-const spacings = require('../default/spacings');
+const fontFamily = require('../font-family');
+const spacings = require('../../default/spacings');
 
 module.exports= {
   screens: screens,

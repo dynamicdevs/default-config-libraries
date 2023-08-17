@@ -12,10 +12,6 @@ module.exports = {
 		red: {
 			900: '#E40000',
 		},
-		wb: {
-			white: '#FFFFFF',
-			black: '#000000',
-		},
 	},
 	secondary: {
 		main: {
