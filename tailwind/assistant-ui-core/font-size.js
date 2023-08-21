@@ -11,6 +11,12 @@ module.exports = {
       lineHeight: '1.5rem',
     },
   ],
+  'body-02': [
+    '0.8125rem',
+    {
+      lineHeight: '0.75rem',
+    },
+  ],
   'caption-01': [
     '0.8125rem',
     {
