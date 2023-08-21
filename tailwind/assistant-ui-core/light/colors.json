@@ -1,0 +1,34 @@
+{
+  "transparent": "transparent",
+  "theme": {
+    "main": "#F3F6FC",
+    "chat": {
+      "main": "#CBCBCB1A",
+      "ai": "#F3F6FC",
+      "user": "#DFE2E6",
+      "text": "#292929"
+    }
+  },
+  "input": {
+    "main": "#F3F6FC",
+    "disabled": "#F3F6FC",
+    "text": {
+      "default": "rgba(0, 0, 0, 0.5)",
+      "focused": "#000000"
+    },
+    "placeholder": "rgba(0, 0, 0, 0.5)"
+  },
+  "border": {
+    "default": "#666666",
+    "success": "#0064E4",
+    "error": "#E40000",
+    "disabled": "#404040"
+  },
+  "others": {
+    "action": "#404040",
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "opposite": "#000000",
+    "progress": "#DFE2E6"
+  }
+}

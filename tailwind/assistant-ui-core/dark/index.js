@@ -1,6 +1,6 @@
-const colors = require('./colors');
+const colors = require('./colors.json');
 const screens = require('../screens');
-const fontSize = require('./font-size');
+const fontSize = require('../font-size');
 const fontFamily = require('../font-family');
 const spacings = require('../../default/spacings');
 
