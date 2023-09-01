@@ -1,34 +1,27 @@
 {
-  "transparent": "transparent",
-  "theme": {
-    "main": "#F3F6FC",
-    "chat": {
-      "main": "#CBCBCB1A",
-      "ai": "#F3F6FC",
-      "user": "#DFE2E6",
-      "text": "#292929"
-    }
+  "system": {
+    "default": "#F3F6FC",
+    "chat": "rgba(203, 203, 203, 0.1)" 
+  },
+  "content": "#232323",
+  "border": {
+    "default": "#8B8E93",
+    "focused": "#4D81F5",
+    "error": "#EA5455",
+    "disable": "#DFE2E6"
   },
   "input": {
-    "main": "#F3F6FC",
-    "disabled": "#F3F6FC",
-    "text": {
-      "default": "rgba(0, 0, 0, 0.5)",
-      "focused": "#000000"
-    },
-    "placeholder": "rgba(0, 0, 0, 0.5)"
+    "content": "#7F8491",
+    "background": {
+      "default": "F9FAFB",
+      "error": "#DDABAB"
+    }
   },
-  "border": {
-    "default": "#666666",
-    "success": "#0064E4",
-    "error": "#E40000",
-    "disabled": "#404040"
+  "chat": {
+    "background": {
+      "01": "#F3F6FC",
+      "02": "#DFE2E6"
+    }
   },
-  "others": {
-    "action": "#404040",
-    "white": "#FFFFFF",
-    "black": "#000000",
-    "opposite": "#000000",
-    "progress": "#DFE2E6"
-  }
+  "transparent": "transparent"
 }
