@@ -1,5 +1,6 @@
 module.exports = {
   15: '3.75rem',
+  17: '4.25rem',
   18: '4.5rem',
   21: '5.25rem',
   26: '6.5rem',

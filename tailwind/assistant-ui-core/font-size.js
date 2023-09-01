@@ -18,15 +18,15 @@ module.exports = {
     },
   ],
   'caption-01': [
-    '0.8125rem',
+    '0.75rem',
     {
       lineHeight: '1rem',
     },
   ],
   'caption-02': [
-    '0.625rem',
+    '0.5rem',
     {
-      lineHeight: '0.75rem',
+      lineHeight: '0.5rem',
     },
   ],
 }
