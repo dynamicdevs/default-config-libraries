@@ -1,27 +1,26 @@
 {
   "system": {
     "default": "#303446",
-    "chat": "rgba(203, 203, 203, 0.1)" 
+    "chat": "rgba(169, 169, 169, 0.1)" 
   },
   "content": "#FFFFFF",
   "border": {
-    "default": "#8B8E93",
+    "default": "#949494",
     "focused": "#4D81F5",
     "error": "#EA5455",
-    "disable": "#DFE2E6"
+    "disable": "#C1C1C1"
   },
   "input": {
-    "content": "#999999",
+    "content": "#B2B2B2",
     "background": {
       "default": "#384150",
-      "error": "#DDABAB"
+      "error": "#FCF2F2"
     }
   },
   "chat": {
     "background": {
       "01": "#303446",
-      "02": "#7F8491"
+      "02": "#191B25"
     }
-  },
-  "transparent": "transparent"
+  }
 }
