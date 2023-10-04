@@ -1,32 +1,32 @@
 module.exports = {
   'display-01': [
-    '2.25rem',
+    '36px',
     {
-      lineHeight: '2.5rem',
+      lineHeight: '40px',
     },
   ],
   'body-01': [
-    '1rem',
+    '16px',
     {
-      lineHeight: '1.5rem',
+      lineHeight: '24px',
     },
   ],
   'body-02': [
-    '0.8125rem',
+    '13px',
     {
-      lineHeight: '0.75rem',
+      lineHeight: '12rem',
     },
   ],
   'caption-01': [
-    '0.75rem',
+    '12px',
     {
-      lineHeight: '1rem',
+      lineHeight: '16px',
     },
   ],
   'caption-02': [
-    '0.5rem',
+    '8px',
     {
-      lineHeight: '0.5rem',
+      lineHeight: '8px',
     },
   ],
 }
