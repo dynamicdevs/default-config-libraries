@@ -8,13 +8,13 @@ module.exports = {
   'body-01': [
     '16px',
     {
-      lineHeight: '24px',
+      lineHeight: '32px',
     },
   ],
   'body-02': [
     '13px',
     {
-      lineHeight: '12rem',
+      lineHeight: '12px',
     },
   ],
   'caption-01': [
