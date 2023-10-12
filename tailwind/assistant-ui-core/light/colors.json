@@ -22,5 +22,15 @@
       "01": "#EDEDED",
       "02": "#DBDBDB"
     }
+  },
+  "table": {
+    "stroke": "#353535",
+    "title": "#8B8E93",
+    "content": "#F9FAFB",
+    "text": "#353535"
+  },
+  "hyperlink": {
+    "default":  "#BFD0F4",
+    "hover": "#191B25"
   }
 }
