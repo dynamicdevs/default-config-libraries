@@ -53,6 +53,12 @@ module.exports = {
       lineHeight: '12px',
     },
   ],
+  'button-01': [
+    '16px',
+    {
+      lineHeight: '24px',
+    },
+  ],
   'caption-01': [
     '12px',
     {
