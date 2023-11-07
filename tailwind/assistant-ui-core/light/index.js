@@ -20,7 +20,9 @@ module.exports = {
     'full': '9999px',
   },
   extend: {
+    minWidth: spacings,
     maxWidth: spacings,
+    minHeight: spacings,
     maxHeight: spacings,
     boxShadow,
   },

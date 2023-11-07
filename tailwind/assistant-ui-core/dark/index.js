@@ -21,7 +21,9 @@ module.exports = {
   },
   backgroundImage,
   extend: {
+    minWidth: spacings,
     maxWidth: spacings,
+    minHeight: spacings,
     maxHeight: spacings,
     boxShadow,
   },
