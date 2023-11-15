@@ -1,40 +1,51 @@
 {
   "system": {
-    "default": "#303446",
-    "chat": "rgba(169, 169, 169, 0.1)" 
+    "content": "#FFFFFF" 
   },
-  "content": "#FFFFFF",
-  "border": {
-    "default": "#949494",
-    "focused": "#4D81F5",
-    "error": "#EA5455",
-    "disable": "#C1C1C1"
-  },
-  "input": {
-    "content": "#B2B2B2",
-    "background": {
-      "default": "#384150",
-      "error": "#FCF2F2"
-    }
+  "content": {
+    "default": "#353535",
+    "danger": "#8C1F1F"
   },
   "chat": {
+    "background": "#EDEDED"
+  },
+  "button": {
+    "primary": {
+      "content": "#FFFFFF",
+      "focused": "#D6B6FF",
+      "disabled": "#D6B6FF",
+      "outline": {
+        "content": "#353535",
+        "default": "#87008A",
+        "hover": "#EDEDED",
+        "focused": "#D6B6FF",
+        "disabled": "#D6B6FF"
+      }
+    },
+    "link": {
+      "content": "#3E008D",
+      "hover": "#996DD1",
+      "focused": "#D6B6FF",
+      "disabled": "#D6B6FF"
+    }
+  },
+  "border": {
+    "default": "#777777"
+  },
+  "input": {
+    "content": "#949494",
+    "focused": "#7B49BB",
     "background": {
-      "01": "#303446",
-      "02": "#191B25"
+      "default": "#FFFFFF",
+      "error": "#FBD6D6",
+      "disabled": "#EDEDED"
     }
   },
   "table": {
-    "stroke": "#C1C1C1",
-    "title": "rgba(241, 244, 255, 0.10)",
-    "content": "#303446",
-    "text": "#FFFFFF"
+    "title": "#C7A4F4",
+    "stroke": "#777777"
   },
-  "hyperlink": {
-    "default":  "#4D81F5",
-    "hover": "#191B25"
-  },
-  "danger": {
-    "content": "#8C1F1F",
-    "background": "#F28585"
+  "other": {
+    "skeleton": "rgba(0, 0, 0, 0.10)"
   }
 }
