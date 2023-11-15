@@ -25,8 +25,8 @@ module.exports = {
     minHeight: spacings,
     maxHeight: spacings,
     boxShadow,
+    backgroundImage,
   },
-  backgroundImage,
   container: () => ({
     center: true,
   }),

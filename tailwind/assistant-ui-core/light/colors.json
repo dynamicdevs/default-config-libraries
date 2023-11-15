@@ -21,6 +21,12 @@
         "focused": "#D6B6FF",
         "disabled": "#D6B6FF"
       }
+    },
+    "link": {
+      "content": "#3E008D",
+      "hover": "#996DD1",
+      "focused": "#D6B6FF",
+      "disabled": "#D6B6FF"
     }
   },
   "border": {
@@ -35,8 +41,11 @@
       "disabled": "#EDEDED"
     }
   },
-  "wb": {
-    "white": "#FFFFFF",
-    "black": "#000000"
+  "table": {
+    "title": "#C7A4F4",
+    "stroke": "#777777"
+  },
+  "other": {
+    "skeleton": "rgba(0, 0, 0, 0.10)"
   }
 }

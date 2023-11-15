@@ -19,13 +19,13 @@ module.exports = {
     '3xl': '24px',
     'full': '9999px',
   },
-  backgroundImage,
   extend: {
     minWidth: spacings,
     maxWidth: spacings,
     minHeight: spacings,
     maxHeight: spacings,
     boxShadow,
+    backgroundImage,
   },
   container: () => ({
     center: true,
