@@ -1,0 +1,50 @@
+{
+  "system": {
+    "default": "#252525",
+    "chat": "rgba(249, 249, 249, 0.23)" 
+  },
+  "content": "#FFFFFF",
+  "footer": "#FFFFFF",
+  "border": {
+    "default": "#B0B3B8",
+    "focused": "#C46618",
+    "error": "#EA5455",
+    "disable": "#C1C1C1"
+  },
+  "input": {
+    "content": "#353535",
+    "background": {
+      "default": "#FFFFFF",
+      "error": "#FCF2F2"
+    }
+  },
+  "chat": {
+    "background": {
+      "01": "#1F1F1F",
+      "02": "#1F1F1F"
+    }
+  },
+  "table": {
+    "stroke": "#EDEDED",
+    "title": "rgba(255, 255, 255, 0.10)",
+    "content": "#1F1F1F",
+    "text": "#FFFFFF"
+  },
+  "hyperlink": {
+    "default":  "#A4BCF0",
+    "hover": "#191B25"
+  },
+  "danger": {
+    "content": "#FFFFFF",
+    "background": "#C46618"
+  },
+  "button": {
+    "primary": {
+      "content": "#FFFFFF",
+      "border": "#C46618",
+      "default": "#C46618",
+      "focused": "#C46618",
+      "hover": "#974D10"
+    }
+  }
+}
