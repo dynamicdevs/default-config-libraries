@@ -1,10 +1,7 @@
-const colors = require('./colors.json');
 const screens = require('../screens');
-const fontSize = require('../font-size');
+const fontSize = require('./font-size');
 const fontFamily = require('../font-family');
 const spacings = require('../spacings');
-const backgroundImage = require('../background-image');
-const boxShadow = require('../box-shadow');
 
 module.exports = {
   screens: screens,
@@ -24,15 +21,12 @@ module.exports = {
     maxWidth: spacings,
     minHeight: spacings,
     maxHeight: spacings,
-    boxShadow,
-    backgroundImage,
   },
   container: () => ({
     center: true,
   }),
   fontFamily: fontFamily,
   fontSize: fontSize,
-  colors: colors,
   fill: theme => ({
     ...theme('colors'),
   }),
