@@ -12,16 +12,16 @@
     "disable": "#C1C1C1"
   },
   "input": {
-    "content": "#353535",
+    "content": "#FFFFFF",
     "background": {
-      "default": "#FFFFFF",
-      "error": "#FCF2F2"
+      "default": "#474747",
+      "error": "#474747"
     }
   },
   "chat": {
     "background": {
       "01": "#1F1F1F",
-      "02": "#1F1F1F"
+      "02": "#353535"
     }
   },
   "table": {
@@ -31,8 +31,8 @@
     "text": "#FFFFFF"
   },
   "hyperlink": {
-    "default":  "#A4BCF0",
-    "hover": "#191B25"
+    "default":  "#FFFFFF",
+    "hover": "#D48842"
   },
   "danger": {
     "content": "#FFFFFF",
