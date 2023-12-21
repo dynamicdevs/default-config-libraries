@@ -2,7 +2,7 @@ module.exports = {
   'heading-01': [
     '4rem',
     {
-      lineHeight: '5.5rem',
+      lineHeight: '4.25rem',
     },
   ],
   'heading-02': [
@@ -36,15 +36,33 @@ module.exports = {
     },
   ],
   'display-01': [
+    '3rem',
+    {
+      lineHeight: '3.75rem',
+    },
+  ],
+  'display-02': [
     '2.25rem',
     {
       lineHeight: '2.5rem',
     },
   ],
+  'display-03': [
+    '1.875rem',
+    {
+      lineHeight: '2.25rem',
+    },
+  ],
+  'display-04': [
+    '1.5rem',
+    {
+      lineHeight: '2rem',
+    },
+  ],
   'body-01': [
     '1rem',
     {
-      lineHeight: '2rem',
+      lineHeight: '1.5rem',
     },
   ],
   'body-02': [

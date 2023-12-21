@@ -1,5 +1,5 @@
 const backgroundImage = require('./background-image');
-const colors = require('./colors.json');
+const colors = require('./colors');
 const fontSize = require('./font-size');
 const fontFamily = require('../font-family');
 const screens = require('../screens');
@@ -15,13 +15,7 @@ module.exports = {
     maxHeight: spacings,
     backgroundImage,
   },
-  container: () => ({
-    center: true,
-  }),
   fontFamily,
   fontSize,
   colors,
-  fill: (theme) => ({
-    ...theme('colors'),
-  }),
 };
